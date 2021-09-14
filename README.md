@@ -1,3 +1,3 @@
-# LMIS - Logistics Management Information System
+# DOCS - Generic Metadata Package Documentation
 
-This repository contains general LMIS related documentation
+## Table of contents
