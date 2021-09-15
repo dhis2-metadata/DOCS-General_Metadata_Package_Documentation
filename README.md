@@ -1,3 +1,3 @@
-# DOCS - Generic Metadata Package Documentation
+# DOCS - General Metadata Package Documentation
 
 ## Table of contents
