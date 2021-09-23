@@ -1,4 +1,4 @@
-# Tracker Installation Guide
+# Tracker Installation Guide { #tracker-installation-guide }
 
 You will have to follow the instructions in full for each separate package that you install.
 
