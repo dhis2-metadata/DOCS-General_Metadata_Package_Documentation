@@ -1,4 +1,4 @@
-# Aggregate Package Installation Guide
+# Aggregate Package Installation Guide { #aggregate-package-installation }
 
 ## Overview
 
