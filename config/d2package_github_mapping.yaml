@@ -10,7 +10,7 @@ MLAG: # Malaria aggregate package
   MLAGDQ: MLAG-Malaria_Aggregate # Malaria data quality dashboard package
   MLAGMP: MLAG-Malaria_Aggregate # Malaria mobile and migrant populations package
   MLAGST: MLAG-Malaria_Aggregate # Malaria stock package
-    MLAGSD: MLAG-Malaria_Aggregate # Malaria stock dashboard package
+  MLAGSD: MLAG-Malaria_Aggregate # Malaria stock dashboard package
 
 # Malaria Surveillance (Tracker)
 MLSO: # Malaria Case Surveillance & Foci Investigation
@@ -20,11 +20,11 @@ MLSO: # Malaria Case Surveillance & Foci Investigation
 # Tuberculosis Aggregate (Aggregate)
 TBAG: # Tuberculosis aggregate package
   TBAG00: TBAG-Tuberculosis_Aggregate # TB aggregate complete package
-    TBAGDB: TBAG-Tuberculosis_Aggregate # TB aggregate complete dashboard package
+  TBAGDB: TBAG-Tuberculosis_Aggregate # TB aggregate complete dashboard package
   TBAGHH: TBAG-Tuberculosis_Aggregate # TB aggregate household contacts package
-    TBAGHD: TBAG-Tuberculosis_Aggregate # TB aggregate household contacts dashboard package
+  TBAGHD: TBAG-Tuberculosis_Aggregate # TB aggregate household contacts dashboard package
   TBAGST: TBAG-Tuberculosis_Aggregate # TB aggregate stock package
-    TBAGSD: TBAG-Tuberculosis_Aggregate # TB aggregate stock dashboard package
+  TBAGSD: TBAG-Tuberculosis_Aggregate # TB aggregate stock dashboard package
 
 # Nutrition Aggregate (Aggregate)
 NUTR: 
