@@ -1,24 +1,23 @@
-
 # Rapid Mortality Surveillance (Events)
-RMS0: RMS0-Rapid_Mortality_Surveillance
-  RMS000: RMS0-Rapid_Mortality_Surveillance
+RMS0: # Rapid Mortality Surveillance events package
+  RMS000: RMS0-Rapid_Mortality_Surveillance # Rapid Mortality Surveillance events package
 
 # Malaria Aggregate (Aggregate)
-MLAG: MLAG-Malaria_Aggregate
+MLAG: # Malaria aggregate package
   MLAG00: MLAG-Malaria_Aggregate # Malaria aggregate complete package
-    MLAGDB: MLAG-Malaria_Aggregate # Malaria aggregate complete dashboard package
+  MLAGDB: MLAG-Malaria_Aggregate # Malaria aggregate complete dashboard package
   MLAGDQ: MLAG-Malaria_Aggregate # Malaria data quality dashboard package
   MLAGMP: MLAG-Malaria_Aggregate # Malaria mobile and migrant populations package
   MLAGST: MLAG-Malaria_Aggregate # Malaria stock package
     MLAGSD: MLAG-Malaria_Aggregate # Malaria stock dashboard package
 
 # Malaria Surveillance (Tracker)
-MLSO: MLS0-Malaria_Case_Surveillance_and_Foci_Investigation
-  MLS0CS: MLS0-Malaria_Case_Surveillance_and_Foci_Investigation
-  MLS0FI: MLS0-Malaria_Case_Surveillance_and_Foci_Investigation
+MLSO: # Malaria Case Surveillance & Foci Investigation
+  MLS0CS: MLS0-Malaria_Case_Surveillance_and_Foci_Investigation # Malaria Case Surveillance
+  MLS0FI: MLS0-Malaria_Case_Surveillance_and_Foci_Investigation # Malaria Foci Investigation
 
-# TB Aggregate (Aggregate)
-TBAG: TBAG-Tuberculosis_Aggregate
+# Tuberculosis Aggregate (Aggregate)
+TBAG: # Tuberculosis aggregate package
   TBAG00: TBAG-Tuberculosis_Aggregate # TB aggregate complete package
     TBAGDB: TBAG-Tuberculosis_Aggregate # TB aggregate complete dashboard package
   TBAGHH: TBAG-Tuberculosis_Aggregate # TB aggregate household contacts package
@@ -27,6 +26,6 @@ TBAG: TBAG-Tuberculosis_Aggregate
     TBAGSD: TBAG-Tuberculosis_Aggregate # TB aggregate stock dashboard package
 
 # Nutrition Aggregate (Aggregate)
-NUTR: NUTR-Nutrition
+NUTR: 
   NUTR00: NUTR-Nutrition # Nutrition aggregate complete package
   NUTRDB: NUTR-Nutrition # Nutrition aggregate complete dashboard package
