@@ -59,6 +59,10 @@ Like indicator types, you may have already existing tracked entity types in your
 |--------|-------------|--------------------------------------------------------|
 | Person | MCPQUTHX1Ze | `../api/trackedEntityTypes.json?filter=name:eq:Person` |
 
+### Visualizations using Root Organisation Unit UID
+
+Visualizations, event reports, report tables and maps that are assigned to a specific organisation unit level or organisation unit group, have a reference to the root (level 1) organisation unit. Such objects, if present in the metadata file, contain a placeholder `<OU_ROOT_UID>`. Use the search function in the .json file editor to possibly identify this placeholder and replace it with the UID of the level 1 organisation unit in the target instance.
+
 ### Importing metadata
 
 The .json metadata file is imported through the [Import/Export](#import_export) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import of the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](#handling-import-conflicts) section below.
