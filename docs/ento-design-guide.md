@@ -56,7 +56,7 @@ These packages are intended to be used by:
 
 ## Android Compatibility
 
-Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the GooglePlay store. Key considerations in design was to ensure that all forms are configured with sections that structure form layout for better display on the android devices. Also, with the requirement of minimal data disaggregation in this package, all the dataSet layout should provide a concise view for Android display.
+DHIS2 configuration packages are also compaitble with the DHIS2 Android Capture App, free to download on the GooglePlay store. Key considerations in design was to ensure that all forms are configured with sections that structure form layout for better display on the android devices. Also, with the requirement of minimal data disaggregation in this package, all the dataSet layout should provide a concise view for Android display.
 
 ## Data Triangulation - Entomology and Malaria
 
