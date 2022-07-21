@@ -7,7 +7,7 @@ All the modules have been designed in line with existing WHO recommendations, st
 
 - ITN bioefficacy monitoring,
 - IRS residual efficacy monitoring,
-- larviciding
+- Larviciding
 
 The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 to support the collection of health data following WHO recommendations.
 
