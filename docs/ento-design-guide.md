@@ -1,4 +1,4 @@
-# Entomology & Vector Control - System Design Guide { #ento-vc}
+# Entomology & Vector Control - System Design Guide { #ento-vc }
 
 ## Background and Purpose
 
