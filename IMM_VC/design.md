@@ -40,13 +40,13 @@ The **manual approach involves the not automatic cloning of the existing EPI met
 The cloning will allow for a fast update of prefixes (e.g. from EPI to SIA) to **adapt the Name, Code, and Form Name, the description, and the recycling of CatCombos and Legends and if needed**. Most importantly, **it will automatically assign a new ID**. This is of key importance to branch the SIA DE from the original EPI DE to be able to import all the metadata in the same instance and triangulate SIA data against EPI and IDSR data.
 The same principle applies to indicators, with the addition of the adaptation of the formula by using the SIA DEs.
 
-![Duplication of EPI DEs](resources/images/SIA_014.png)
+![Duplication of EPI DEs](resources/images/SIA_014.png){ .center }
 
-![EPI to SIA](resources/images/SIA_015.png)
+![EPI to SIA](resources/images/SIA_015.png){ .center }
 
 The approaches can be also applied for the replication of the Stock dataset if needed.
 
-![EPI to SIA Stock](resources/images/SIA_018.png)
+![EPI to SIA Stock](resources/images/SIA_018.png){ .center }
 
 The use of a **flat file** undoubtedly shortens the time to adapt the metadata, but requires a sufficient technical knowledge to understand the structure of the flat file, and to export and reimport the metadata. This approach will easily allow the **change of prefixes or any other update needed to DE**s, indicators, but it will require the **manual change of ID for every new type of metadata** to be used during the campaign. Once again, this is of paramount importance in order to later on import the SIA data in the HMIS for the triangulation of the results against the routine activities.
 
@@ -58,13 +58,13 @@ Another important consideration linked to time cycles is the target population o
 
 ### EPI to SIA: Frequency and Target Population
 
-![Periodicity](resources/images/SIA_016.png)
+![Periodicity](resources/images/SIA_016.png){ .center }
 
 A **separate SIA dataset** containing the SIA metadata will have to be created. As aforementioned, the activities during a vaccination campaign are usually limited in time and would likely require a **Daily dataset**. Moreover, given the short lifespan of campaigns, the dataset could be set to have an **opening and closing data for data inputs**. This could be of particular interest for sites where SIAs are carried out more often or where multiple campaigns are carried out in parallel. Depending on the structure of the hierarchy, campaigns could create confusion among the data entry clerks, who might enter data in the wrong site/dataset.
 
 The population of the vaccination campaign is normally very targeted and, just as the activities, only set for a short period of time. Usually specific sites and vaccination efforts are aiming at a targeted number of individuals. An approach to this would be the **addition of a section for the target population directly in the vaccine delivery dataset**. This method, combined with the info provided in the [“Indicators”](#indicators) section, should provide sound and reliable coverage indicators.
 
-![Periodicity](resources/images/SIA_017.png)
+![Periodicity](resources/images/SIA_017.png){ .center }
 
 In this particular practical example the population section includes the pregnant women and the population by age groups. Depending on the logistics, vaccine antigen, and the specific targets, the age groups and data points can be changed and applied accordingly. This population will be the denominator for that specific vaccination site and for that specific day. For a cumulative overview of the vaccination efforts, users will likely have to analyse the data at a higher level (e.g. districts) and over the period of the activities by selecting “**Fixed periods**” during the analysis.
 
@@ -109,6 +109,7 @@ A **Category Combination** can also be assigned as an attribute to a tracker pro
 ### Indicators
 
 **Coverage** is one of the key indicators monitored during SIAs (UNICEF, 2021](<https://www.unicef.org/media/93781/file/gavi-unicef-digital-technology-immunization-2021.pdf>). Poor data quality and insufficient monitoring obscures coverage and makes identifying gaps more difficult, adversely affecting planning and targeting. Moreover, the monthly periodicity of routine reporting vs increased (daily) frequency of data collection in a campaign can skew coverage results.
+
 The use of [**cumulative over-time aggregate indicators**](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-235/configuring-the-system/metadata.html#manage_indicator) is recommended to ensure accurate calculations of coverage. This is possible using the **periodOffset function** in indicators in versions above 2.35.12. As a result, coverage indicators use the sum of the last 12 months as a numerator instead of annualizing the indicator. This is a more accurate way of calculating coverage indicators than annualizing them.
 
 Examples of cumulative over-time indicator expressions using the periodOffsetfunction can be referenced from the [routine immunization package](https://dhis2.org/metadata-package-downloads/)
