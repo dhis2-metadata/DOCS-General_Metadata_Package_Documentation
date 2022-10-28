@@ -1,4 +1,4 @@
-# Real-time Monitoring of Vaccination Campaigns - Use { #imm-camp-use }
+# Real-time Monitoring of Vaccination Campaigns - Use { #immu-campaigns-overview }
 
 ## Introduction
 
@@ -8,7 +8,7 @@ The use of electronic digital tools to monitor preparedness and implementation i
 
 This document is intended to provide practical guidance to national immunisation programmes, national core HIS teams and DHIS2 implementers on **how to use DHIS2 to support the planning, implementation, real-time monitoring and evaluation of immunisation campaigns**. The document provides an overview of the various DHIS2 applications, WHO metadata, and functionality that can be used and customised for SIA. Throughout the document, **real-world examples from country implementations** are provided to demonstrate the use of these tools.
 
-This guide is tailored to implementing DHIS2 for planning and real-time monitoring (RTM) of immunisation campaigns. For more general DHIS2 implementation guidance, please refer to link to internal documentation Implementation Overview: <https://docs.dhis2.org/en/implement/implementing-dhis2/overview.html>
+This guide is tailored to implementing DHIS2 for planning and real-time monitoring (RTM) of immunisation campaigns. For more general DHIS2 implementation guidance, please refer to link to the internal documentation [Implementation Overview](https://docs.dhis2.org/en/implement/implementing-dhis2/overview.html).
 
 ### Acknowledgements
 
@@ -18,7 +18,7 @@ HISP Centre would like to extend its special thanks to the external partners who
 
 The **DHIS2 Immunization Toolkit** developed in partnership with WHO, UNICEF and CDC includes a range of configuration packages, dashboard designs, and analysis apps to support the use of routine and non-routine data to improve immunisation programme performance, increase coverage and reduce the number of zero-dose children. This document outlines the DHIS2 tools that can be used and adapted for planning, implementing, real time monitoring, and evaluating SIAs.
 
-![Immunization Toolkit conceptual map](resources/images/SIA_005.png)
+![Immunization Toolkit conceptual map](resources/images/SDG_005.png)
 
 ## Pre-Campaign: Planning
 
