@@ -1,4 +1,4 @@
-# Real-time Monitoring of Vaccination Campaigns - Implement  { #imm-camp-implement }
+# Real-time Monitoring of Vaccination Campaigns - Implement  { #imm-vc-implement }
 
 This chapter focuses on aspects of **DHIS2 implementation strategies** and decisions that typically must be made on a per-country/per-campaign basis to accommodate local context. The guide is intended for DHIS2 **implementers** to be aware of deployment strategies and approaches for implementing a robust and fit-for-purpose campaign with DHIS2.
 
