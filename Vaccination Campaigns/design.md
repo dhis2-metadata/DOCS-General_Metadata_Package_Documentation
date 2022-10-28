@@ -1,4 +1,4 @@
-# Real-time Monitoring of Vaccination Campaigns
+# Real-time Monitoring of Vaccination Campaigns - Design
 
 ## Introduction
 
