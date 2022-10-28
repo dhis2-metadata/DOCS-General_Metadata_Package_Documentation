@@ -1,4 +1,4 @@
-# Real-time Monitoring of Vaccination Campaigns - Design
+# Real-time Monitoring of Vaccination Campaigns - Design  { #imm-camp-design }
 
 ## Introduction
 
