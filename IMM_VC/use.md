@@ -1,4 +1,4 @@
-# Real-time Monitoring of Vaccination Campaigns - Use { #imm-camp-use }
+# Real-time Monitoring of Vaccination Campaigns - Use { #imm-vc-use }
 
 ## Introduction
 
