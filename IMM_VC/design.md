@@ -92,7 +92,7 @@ A way to easily scan through extensive hierarchies, the sites could be attribute
 
 Implementers could also leverage the access model of DHIS2 to allow data analysis and monitoring all level of the campaigns by **designing users with different rights** depending on their role in the campaign, and/or with different levels of access to the hierarchy - e.g. vaccination teams can have access just to some specific sites assigned to them, or team managers can have access to predefined region or district.
 
-## Supervision as a dimension
+## Supervision as a Dimension
 
 **Monitoring the distribution and performance of campaign workers** can be useful to optimise operations and re-allocate human resources during the campaign. While the global packages already provide the relevant metadata to design the baseline data points to monitor staff availability, there are no predefined data elements to monitor individual vaccinators or vaccination teams. The dataset design for SIAs could benefit from the addition of “**team numbers**” or “**vaccinators**” a data element or a **dataset attribute** to better monitor the adherence to guideline and the performance of the ground team.
 
