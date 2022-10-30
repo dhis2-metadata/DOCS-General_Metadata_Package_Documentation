@@ -70,7 +70,7 @@ In this particular practical example the population section includes the pregnan
 
 ## Organisation Unit Structure
 
-Among the many considerations involved in the planning stages, the role of the [Organizational Units](https://www.youtube.com/watch?v=UDwmYw0W9gg) hierarchy and its levels are one of the most **critical** key points to be considered in tandem with the type of data collection planned (aggregate? tracker?). For example what **type of sites** belong to the hierarchy (health facilities? Communities? Non health-related structures?), and what **levels** (administrative hierarchy? Health districts?) to include.
+Among the many considerations involved in the planning stages, the role of the [Organisation Unit](https://www.youtube.com/watch?v=UDwmYw0W9gg) hierarchy and its levels are one of the most **critical** key points to be considered in tandem with the type of data collection planned (aggregate? tracker?). For example what **type of sites** belong to the hierarchy (health facilities? Communities? Non health-related structures?), and what **levels** (administrative hierarchy? Health districts?) to include.
 The points below provide some primary reflections that should be taken into consideration when designing campaign-style activities in the system.
 The levels of the [hierarchy](https://docs.dhis2.org/en/implement/database-design/organisation-units.html) should be selected based also on whether the campaign metadata will be fully integrated in the National HMIS or if it will be in a separate instance. Overall, **the alignment of the HMIS hierarchy to the relevant sub-national level is strongly recommended** to support analysis and future integration of the data, even if a separate DHIS2 instance is used during the campaign itself.
 
