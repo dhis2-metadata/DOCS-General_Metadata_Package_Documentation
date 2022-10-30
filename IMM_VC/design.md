@@ -48,7 +48,7 @@ The approaches can be also applied for the replication of the Stock dataset if n
 
 ![EPI to SIA Stock](resources/images/SIA_018.png){ .center }
 
-The use of a **flat file** undoubtedly shortens the time to adapt the metadata, but requires a sufficient technical knowledge to understand the structure of the flat file, and to export and reimport the metadata. This approach will easily allow the **change of prefixes or any other update needed to DE**s, indicators, but it will require the **manual change of ID for every new type of metadata** to be used during the campaign. Once again, this is of paramount importance in order to later on import the SIA data in the HMIS for the triangulation of the results against the routine activities.
+The use of a **flat file** undoubtedly shortens the time to adapt the metadata, but requires a sufficient technical knowledge to understand the structure of the flat file, and to export and reimport the metadata. This approach will easily allow the **change of prefixes or any other update needed to DEs**, indicators, but it will require the **manual change of ID for every new type of metadata** to be used during the campaign. Once again, this is of paramount importance in order to later on import the SIA data in the HMIS for the triangulation of the results against the routine activities.
 
 ## Frequency of Reporting
 
