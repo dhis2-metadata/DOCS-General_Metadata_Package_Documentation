@@ -248,7 +248,7 @@ Many of the DHIS2 functionalities and tools used to establish [feedback loops wi
   - **Validation rule alerts**: Validation rules can be used for many purposes. Data quality checks is the most common practice, but validation rules can be used for programmatic alerts as well. For example, a validation rule "Doses available !== 0". In this case any instance where a vaccination site has no doses on hand can be prioritised for restocking. A user group such as Campaign Supervisors can receive automated validation rule alerts that one or more campaign sites/operational units require follow up.
   - **Reminder to submit data**: It is typically a good practice to send reminders to facility and community health workers to submit their routine data via SMS. This can be replicated for groups of campaign workers, e.g. to alert a Supervisor if an operational unit has not entered any data and may require follow-up.
 - An **SMS gateway** that can be configured to send and receive messages to/from DHIS2
-- **Program rule**s configured to display warnings or messages for retrospective/secondary data entry users (typically focusing on data quality) or basic decision support for real-time electronic data entry
+- **Program rules** configured to display warnings or messages for retrospective/secondary data entry users (typically focusing on data quality) or basic decision support for real-time electronic data entry
 
 ### Vaccine Hesitancy & Demand Generation
 
