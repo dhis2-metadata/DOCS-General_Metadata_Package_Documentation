@@ -5,9 +5,9 @@
 The DHIS2 standard modules for **Entomology and Vector Control (E&VC)** have been developed to support countries to improve the collection and use of entomological and vector control interventions data  to inform programmatic decisions.
 All the modules have been designed in line with existing WHO recommendations, standard protocols and guidance. These modules complement already existing modules for [malaria epidemiology](https://who.dhis2.org/documentation/index.html#malaria). They contain a set of standard data collection forms, automatically calculated indicators, data visualizations and thematic dashboards that allow to collect, visualize and interpret data from the following activities in line with WHO recommendations:
 
-- ITN bioefficacy monitoring,
-- IRS residual efficacy monitoring,
-- Larviciding
+- [ITN bioefficacy monitoring](#ento-itn-bsm-design)
+- [IRS residual efficacy monitoring](#ento-irs-rem-design)
+- [Larviciding](#ento-itn-bio-design)
 
 The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 to support the collection of health data following WHO recommendations.
 
