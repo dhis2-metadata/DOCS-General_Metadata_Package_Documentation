@@ -12,7 +12,7 @@ This guide is tailored to implementing DHIS2 for planning and real-time monitori
 
 ### Acknowledgements
 
-HISP Centre would like to extend its special thanks to the external partners who provided strategic and technical guidance, contributed content, and shared field lessons lessons learned to develop this guide: MOH Uganda, MOH Bangladesh, WHO, UNICEF HQ, UNICEF Bangladesh, CDC, HISP Rwanda, HISP Uganda, and Gavi, the Vaccine Alliance. Support for the development of the DHIS2 SIA guidance and toolkit was generously provided by Gavi, the Vaccine Alliance.
+HISP Centre would like to extend its special thanks to the external partners who provided strategic and technical guidance, contributed content, and shared field lessons lessons learned to develop this guide: MOH Uganda, MOH Bangladesh, WHO, UNICEF, UNICEF Bangladesh, US CDC, MSF, HISP Rwanda and HISP Uganda. The development of the DHIS2 SIA guidance and toolkit is supported by Gavi, the Vaccine Alliance.
 
 ## Overview
 
