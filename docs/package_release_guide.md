@@ -7,7 +7,6 @@
 
 flowchart LR
   id1>Metadata Index File]
-  click id1 href "https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM/edit?usp=sharing" _blank
   id2(Diagnostic Laboratory Results <br> Repeatable)
   id3(Diagnosis and Notification <br> Non-Repeatable)
   id4((Diagnosis))
@@ -16,6 +15,8 @@ flowchart LR
   id7(Treatment <br> Repeatable)
   id8(Monitoring Laboratory Results <br> Repeatable)
   id9(Outcome <br> Non-repeatable)
+  click id1 "[https://www.github.com](https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM/edit?usp=sharing)" "This is a tooltip for a link"
+  click id1 href "https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM/edit?usp=sharing" _blank
   subgraph Enrollment
     subgraph Diagnostics
        id2 <--> id3
