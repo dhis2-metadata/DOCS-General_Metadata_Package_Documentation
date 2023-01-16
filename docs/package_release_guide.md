@@ -7,7 +7,7 @@
 
 flowchart LR
   id1>Metadata Index File]
-  click id1 href "[https://www.github.com](https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM/edit?usp=sharing)" _blank
+  click id1 href "https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM/edit?usp=sharing" _blank
   id2(Diagnostic Laboratory Results <br> Repeatable)
   id3(Diagnosis and Notification <br> Non-Repeatable)
   id4((Diagnosis))
