@@ -10,6 +10,8 @@ This document is intended to provide practical guidance to national immunisation
 
 This guide is tailored to implementing DHIS2 for planning and real-time monitoring (RTM) of immunisation campaigns. For more general DHIS2 implementation guidance, please refer to link to the internal documentation [Implementation Overview](https://docs.dhis2.org/en/implement/implementing-dhis2/overview.html).
 
+The recording of the [DHIS2 Immunization toolkit for SIAs webinar](https://www.youtube.com/watch?v=IOEL8pnM1Ko) provides an overview and summary of the guide.
+
 ### Acknowledgements
 
 HISP Centre would like to extend its special thanks to the external partners who provided strategic and technical guidance, contributed content, and shared field lessons lessons learned to develop this guide: MOH Uganda, MOH Bangladesh, WHO, UNICEF, UNICEF Bangladesh, US CDC, MSF, HISP Rwanda and HISP Uganda. The development of the DHIS2 SIA guidance and toolkit is supported by Gavi, the Vaccine Alliance.
@@ -264,6 +266,7 @@ With support from the BreakthroughACTION project, DHIS2 was deployed as a real-t
 ### DHIS2-RapidPro Integration
 
 RapidPro is a global good that has been used effectively in numerous countries and use cases to facilitate field-level communications and improve in health, education, nutrition, WASH and vaccination (UNICEF, 2019). DHIS2 core support for integration with RapidPro (underway) is anticipated to further enhance the ability of implementations to link the information systems platform (DHIS2) with effective bi-directional communication tools (RapidPro).
+A [webinar](https://www.youtube.com/watch?v=Yvkvyefa3fo) and the [CoP post](https://community.dhis2.org/t/webinar-on-rapidpro-dhis2-integration/51924) to it related are available for further information on the integration of DHIS2 and RapidPro.
 
 ### DHIS2 Tracker
 
