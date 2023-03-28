@@ -111,15 +111,15 @@ First, you will have to use the *Sharing* functionality of DHIS2 to configure wh
 
 A metadata package usually contains several user groups:
 
-* {pkg_name} access
-* {pkg_name} admin
-* {pkg_name} data capture
+* AFI access
+* AFI admin
+* AFI data capture
 
 By default the following is assigned to these user groups
 
-| Object              | User Groups                        |                                             |                                                |
-|---------------------|------------------------------------|---------------------------------------------|------------------------------------------------|
-|                     | {pkg_name} access                         | {pkg_name} admin                                   | {pkg_name} data capture                               |
+| Object              | User Groups                             |                                                  |                                                     |
+|---------------------|-----------------------------------------|--------------------------------------------------|-----------------------------------------------------|
+|                     | AFI access                          | AFI admin                                    | AFI data capture                                |
 | Tracked entity type | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
 | Program             | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
 | Program Stages      | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
@@ -128,8 +128,6 @@ By default the following is assigned to these user groups
 Please refere to the individual package installation annex for information about user groups.
 
 You will want to assign your users to the appropriate user group based on their role within the system. You may want to enable sharing for other objects in the package depending on your set up. Refer to the [DHIS2 Documentation](#sharing) for more information on configuring sharing.
-
-Important note: there is a bug affecting versions 2.33 and 2.34 which overrides sharing properties of an object after importing the same object even though MERGE is selected as import parameter. This is especially critical for the object Tracked Entity Type - Person (UID: MCPQUTHX1Ze) which is typically shared with user groups of different packages.
 
 If your TET Person already matches the one in the package and you want to avoid overriding the current sharing properties for this object in the database, you can follow these steps:
 
@@ -168,3 +166,20 @@ Once the programme has been imported, you might want to make certain modificatio
 * Modifying program indicators based on local case definitions
 
 However, it is strongly recommended to take great caution if you decide to change or remove any of the included form/metadata. There is a danger that modifications could break functionality, for example program rules and program indicators.
+
+### [CONFIG] metadata
+
+The following metadata needs to be configured after import.
+
+| Metadata Type       | Name                                               |
+|---------------------|----------------------------------------------------|
+| Option Sets         | [CONFIG]\_Race / Ethnicity / Nationality           |
+| Option Sets         | [CONFIG]\_Occupation                               |
+| Option Sets         | [CONFIG]\_Diagnosis                                |
+| Data Elements       | [CONFIG]\_Month before illness, [Other exposure X] |
+| Data Elements       | [CONFIG]\_Laboratory test X                        |
+| Data Elements       | [CONFIG]\_Date of test X                           |
+| Data Elements       | [CONFIG]\_Pathogens tested "X"                     |
+
+Where you can see X in the name, it means there is currently a number to distinguish every different metadata object. For example, for [CONFIG]\_Laboratory test X, you will find in the package Data Elements called [CONFIG]\_Laboratory test 1, [CONFIG]\_Laboratory test 2, [CONFIG]\_Laboratory test 3. It is entirely up to you to rename them as well as adding new ones or removing the ones you may not need following the same logic.
+**Please be aware that this migh have an impact on Program Indicators and Program Rules.**
