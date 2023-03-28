@@ -111,15 +111,15 @@ First, you will have to use the *Sharing* functionality of DHIS2 to configure wh
 
 A metadata package usually contains several user groups:
 
-* IDS_AFI access
-* IDS_AFI admin
-* IDS_AFI data capture
+* AFI access
+* AFI admin
+* AFI data capture
 
 By default the following is assigned to these user groups
 
 | Object              | User Groups                             |                                                  |                                                     |
 |---------------------|-----------------------------------------|--------------------------------------------------|-----------------------------------------------------|
-|                     | IDS_AFI access                          | IDS_AFI admin                                    | IDS_AFI data capture                                |
+|                     | AFI access                          | AFI admin                                    | AFI data capture                                |
 | Tracked entity type | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
 | Program             | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
 | Program Stages      | Metadata : can view <br> Data: can view | Metadata : can edit and view <br> Data: can view | Metadata : can view <br> Data: can capture and view |
