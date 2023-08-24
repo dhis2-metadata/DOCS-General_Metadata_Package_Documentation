@@ -8,6 +8,8 @@ All the modules have been designed in line with existing WHO recommendations, st
 - [ITN bioefficacy monitoring](#ento-itn-bsm-design)
 - [IRS residual efficacy monitoring](#ento-irs-rem-design)
 - [Larviciding](#ento-itn-bio-design)
+- [IRN Mass Campaigns](#irs-campaign)
+- [ITN Mass Campaigns](#ITN-campaigns)
 
 The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 to support the collection of health data following WHO recommendations.
 
@@ -24,9 +26,9 @@ With these modules, countries can:
 
 ### General Structure of the Activities
 
-This chapter summarizes the published modules as of June 2022. It will be updated as more modules and packages are added to their respective E&VC activities.
+This chapter summarizes the published modules as of August 2023. It will be updated as more modules and packages are added to their respective E&VC activities.
 
-![Entomology program structure](resources/images/ento-vc-001-en.png)
+![Entomology program structure](resources/images/ento-vc-100-en.png)
 
 The diagram provides an overview (from darker to lighter green) of the **activities, modules, and packages** currently available in the DHIS2 for E&VC. Further use cases and descriptions will be provided in the design guides of the modules.
 
