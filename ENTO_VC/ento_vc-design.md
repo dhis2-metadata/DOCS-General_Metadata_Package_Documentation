@@ -8,8 +8,8 @@ All the modules have been designed in line with existing WHO recommendations, st
 - [ITN bioefficacy monitoring](#ento-itn-bsm-design)
 - [IRS residual efficacy monitoring](#ento-irs-rem-design)
 - [Larviciding](#ento-itn-bio-design)
-- [IRN Mass Campaigns](#irs-campaign)
-- [ITN Mass Campaigns](#ITN-campaigns)
+- [IRN Mass Campaign](#irs-campaign)
+- [ITN Mass Campaign](#ITN-campaign)
 
 The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 to support the collection of health data following WHO recommendations.
 
