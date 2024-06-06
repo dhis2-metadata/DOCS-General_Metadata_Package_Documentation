@@ -117,9 +117,7 @@ DHIS2 can support advanced population mapping for geospatial microplanning activ
 > **DHIS2 IN USE:**
 >
 > **Uganda** has implemented DHIS2 not just as a health information system, but also as an **education information system (EMIS)**. The Ugandan EMIS collects their data on annual statistical forms. This data, that includes learner enrolments, staff, infrastructure, textbooks, special needs learners etc, is then entered into the DHIS2 at the district level. This is analysed and key indicators presented on dashboards. During vaccination campaigns, the entire district is involved in the micro-planning activities - this includes both the district health team and district education team, under the guidance of the district leadership.
-
 In Uganda schools are usually vaccination posts. As health teams needed the number of children within the target age group who attended each school, **the district education team was able to extract and share the enrolment numbers of the target age group with the district micro-planning team to set the coverage targets and quantify the commodities and logistics needed for each school vaccination post**.
-
 The district education team later stated that all the school vaccination posts with data from DHIS2 had adequate stock for the vaccination campaign. More information about this use case is available in the [data use session recording](https://community.dhis2.org/t/dhis2-annual-conference-session-on-data-use-in-practice-sharing-stories/43254/10) from the DHIS2 Annual Academy 2022.
 
 - Structure maps via **Google Earth engine** - The dataset contains 516M building detections, across an area of 19.4M km2 (64% of the African continent).
